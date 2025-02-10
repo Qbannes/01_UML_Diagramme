@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="Kmcqd6PwOPzC5rmFmxoR" name="Seite-1">
+        <mxGraphModel dx="803" dy="268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="k:Kunde" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="40" width="100" height="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2">
+                    <mxGeometry x="45" y="80" width="10" height="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="2">
+                    <mxGeometry x="55" y="140" width="10" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="m:Mitarbeiter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="40" width="100" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3">
+                    <mxGeometry x="45" y="80" width="10" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="p:Pommes" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="240" width="100" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4">
+                    <mxGeometry x="45" y="70" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Zubereitungszeit" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="17" parent="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="55" y="60" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="85" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;" edge="1" parent="1" target="3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="170" y="120" as="sourcePoint"/>
+                        <mxPoint x="330" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="bestellePommes()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="70" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="mitMayo()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=-0.22;exitY=0.179;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="12" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="180" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Jo!" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=0.1;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="12" parent="1" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="237" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1.06;exitY=0.424;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="460" y="260" as="sourcePoint"/>
+                        <mxPoint x="640" y="259.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="{ Bestellung OK }" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="230" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.22;entryY=0.762;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="550" y="350" as="sourcePoint"/>
+                        <mxPoint x="470" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="456" y="402" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="mayoDrauf()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="25" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="461" y="382" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="491" y="382"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Love all - serve all!" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.971;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.057;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6" target="5">
+                    <mxGeometry x="0.001" relative="1" as="geometry">
+                        <mxPoint x="440" y="450" as="sourcePoint"/>
+                        <mxPoint x="180" y="450" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0.971;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5" target="4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="180" y="500" as="sourcePoint"/>
+                        <mxPoint x="340" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="pommesEssen()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="490" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
+                    <mxGeometry x="675" y="530" width="30" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
